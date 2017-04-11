@@ -14,11 +14,13 @@ Installation
 On Debian based systems (Ubuntu, Debian, Raspian) systems you should be able to issue:
 
 ```
-sudo apt get update
-sudo apt get install speedtest-cli
+sudo apt-get update
+sudo apt-get install speedtest-cli
 ```
 
 Your mileage may vary, this has been tested on Ubuntu 16.04 LTS and Raspian Jessie.
+
+Clone or download this repository and run the `do_speed_test.sh` script.  It should put the raw output of the script in the `latest_test.txt` file and store the results of the test in a file called `speeds.csv`.  You may need to play with file permissions to get everything to work.
 
 Cron
 ---
